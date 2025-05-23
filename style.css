@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+  
+:target {
+    scroll-margin-top: 0.10em; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 247, 247);
+    height: 60px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#logoHeader{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 200px ;
+    height: 38px ;
+}
+
+#navegação{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#navegação ul a{
+    text-decoration: none;
+    color: #237529;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+#seção2{
+    margin: 0 auto;
+    width: 100%;
+    height: 91.7vh;
+    background-image: url(Imagens/Fundo.png);
+    background-size: cover;
+    align-content: center;
+}
+
+#titulo-seção2{
+    font-family: 'Montserrat';
+    color: white;
+    text-shadow: -3px 3px 3px #163218;
+    font-size: 30px;
+}
+
+#botão-seção2{
+    width: 200px;
+    height: 35px;
+    border-radius: 100px 100px;
+    background-color: #1B5E20;
+    border: solid 3px #144417;
+}
+
+#botão-seção2 a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
+}
+
+#seção3{
+    background-color:#F1F8E9;
+    height: 78.6vh;
+    display: flex;
+}
+
+#box-seção3{
+    display: flex;
+}
+
+#titulo-da-seção3{
+    display: flex;
+    background-color: #F1F8E9;
+}
+
+#titulo-da-seção3 h1{
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    color: #1B5E20;
+    font-size: 50px;
+    background-color: #F1F8E9;
+}
+
+#parte1-seção3{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+
+#artigo1{
+    width: 600px;
+    text-align: justify;
+}
+
+#titulo-seção3{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    color: #1B5E20;
+    font-size: 30px;
+}
+
+#artigo1 p{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+}
+
+
+#seção4{
+    width: 100%;
+    height: 550px;
+    background-color: #d6ffd9;
+}
+
+#titulo-da-seção4{
+    display: flex;
+    background-color: #d6ffd9;
+}
+
+#titulo-da-seção4 h1{
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    color: #000000;
+    font-size: 40px;
+    background-color: #d6ffd9;
+    margin-bottom: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #d6ffd9;
+}
+
+.produtos {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto {
+    background-color: white;
+    border: 2px solid #2E7D32;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto .preco {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.produto .descricao {
+    font-size: 14px;
+    color: #555;
+}
+
+
+#section3{
+    background-color: #F1F8E9;
+}
+#section4, #section3, #section5{
+    height: 30px;
+}
+
+#section5{
+    background-color: #6c443c;
+    display: block;
+    height: 50px;
+}
+
+#section4{
+    height: 50px;
+}
+
+#titulo-da-seção5{
+    display: flex;
+    width: 100%;
+    background-color:  #6c443c;
+    color: white;
+    justify-content: center;
+    margin-top: 0px;
+    height: 5px;
+}
+
+/*Cor Marrom background: #6c443c */
+/*Cor Marrom background: #2E4B31 */
+
+#titulo-da-seção5 h1{
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+
+#seção5{
+    background-color: #6c443c ;
+    height:  150vh;
+}
+
+#box-seção5{
+    display: flex;
+}
+
+#box-seção5 img{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#sacolas-evitadas{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 100px 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+
+#sacolas-evitadas button, input{
+    margin-top: 10px;
+    border-radius: 10px 10px;
+    padding-top: 2.4px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+}
+
+#sacolas-evitadas input{
+    width: 235px;
+}
+
+#sacolas-evitadas button{
+    width: 125px;
+}
+
+
+#rodape{
+    width: 100%;
+    background-color: #144417;
+    color: #F1F8E9;
+    bottom: 0;
+}
+
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdaVida</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="refresh" content="99999.5">
+    <meta name= “viewport” content= “widthadvice-width, initial-scale=1.0”>
+</head>
+
+<body>
+    <div id="Cima"></div>
+    <div id="header">
+        <header id="seção1">
+            <a href=".html">
+                <img id="logoHeader" src="Imagens/Logo VerdaVida-250.png" alt="Logo">
+            </a>
+
+            <nav id="navegação">
+                <ul><a href="#Cima">Home</a></ul>
+                <ul><a href="#section3">Sobre Nós</a></ul>
+                <ul><a href="#section4">Produtos</a></ul>
+                <ul><a href="#section5">Sustentabilidade</a></ul>
+                <ul><a href="">Contato</a></ul>
+            </nav>
+        </header>
+    </div>
+    
+    <section id="seção2">
+        <h2 id="titulo-seção2">Soluções sustentáveis <br>para um mundo melhor</h2>
+        <button id="botão-seção2"><a href="#section4">Conheça Nossos Produtos</a></button>
+    </section>
+
+    <div id="section3"></div>
+
+    <section id="titulo-da-seção3"><h1>Quem somos</h1></section>
+
+    <section id="seção3">
+        <div id="box-seção3">
+            <div>
+                <img id="parte1-seção3" src="Imagens/Quem somos.-400.jpg" alt="Qeum somos">
+            </div>
+
+
+            <article id="artigo1">
+                <h2 id="titulo-seção3">Historia</h2>
+                    <p id="paragrafo1-seção3">
+                        A VerdaVida nasceu em 2019, quando um grupo de jovens ambientalistas percebeu a falta de alternativas acessíveis
+                        e sustentáveis no mercado de embalagens. Começando em uma pequena garagem com produção artesanal, a empresa cresceu
+                        com o propósito de reduzir o uso de plásticos e promover produtos biodegradáveis. Hoje, a VerdaVida atua em todo o
+                        Brasil, fornecendo embalagens ecológicas para pequenas empresas, feiras, restaurantes e eventos.
+                    </p>    
+                <img src="" alt="">
+                <p></p>
+            </article>
+        </div>
+    </section>
+
+    <div id="section4"></div>
+
+    <section id="titulo-da-seção4"><h1>Nossos Produtos</h1></section>
+
+    <section id="seção4">
+        <div class="produtos">
+            <div class="produto">
+                <img src="Imagens/EcoBag.jpg" alt="EcoBag Reutilizável">
+                <h3>EcoBag Reutilizável</h3>
+                <p class="preco">R$ 29,90</p>
+                <p class="descricao">Sacola ecológica feita com algodão orgânico.</p>
+            </div>
+    
+            <div class="produto">
+                <img src="Imagens/Garrafa Termica.jpg" alt="Garrafa Termica">
+                <h3>Garrafa Térmica Inox</h3>
+                <p class="preco">R$ 89,90</p>
+                <p class="descricao">Mantém a bebida quente ou fria por até 12h.</p>
+            </div>
+    
+            <div class="produto">
+                <img src="Imagens/Canudos Bambu.jpg" alt="Canudos Bambu">
+                <h3>Kit Canudos de Bambu</h3>
+                <p class="preco">R$ 19,90</p>
+                <p class="descricao">Conjunto de canudos ecológicos com escova de limpeza.</p>
+            </div>
+    
+            <div class="produto">
+                <img src="Imagens/Sabonete Vegetal.jpg" alt="Sabonete Vegetal">
+                <h3>Sabonete Natural Vegano</h3>
+                <p class="preco">R$ 15,00</p>
+                <p class="descricao">Feito à mão, livre de parabenos e sulfatos.</p>
+            </div>
+    
+            <div class="produto">
+                <img src="Imagens/Vaso Regar.jpg" alt="Vaso Autoirrigavel">
+                <h3>Vaso Autoirrigável</h3>
+                <p class="preco">R$ 49,90</p>
+                <p class="descricao">Ideal para hortas domésticas com sistema inteligente.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="section5"></div>
+    <section id="titulo-da-seção5"><h1>Sustentabilidade</h1></section> 
+    <section id="seção5">
+        <div id="box-seção5">
+            <img src="Imagens/Sustentabilidade-500.jpg" alt="Sustentabilidade">
+        </div>
+
+        <div id="sacolas-evitadas">
+            <div id="calculadora">
+                <p>Calcular Quandidade De Sacolas Evitadas:</p>
+                <input type="number" id="quantidade" placeholder="Quantidade de sacolas compradas">
+                <button onclick="calcular()">Calcular Impacto</button>
+                <p id="resultado"></p>
+            </div>
+            <script>
+                function calcular() {
+                    const qtd = document.getElementById('quantidade').value;
+                    document.getElementById('resultado').innerHTML = 
+                        `Obrigado, você evitou ${qtd * 20} sacolas plásticas! 🌱`;
+                }
+            </script>
+        </div>
+
+    </section>
+
+
+
+    <footer id="rodape">
+        &copy;<span> Todos Os Direitos Reservados </span>&reg;
+    </footer>
+
+</body>
+
+</html>
